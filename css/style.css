@@ -43,19 +43,19 @@ header .navbar-default .navbar-nav a {
 }
 
 header .navbar-default .navbar-nav a:hover {
-	color: #EEC856;
+	color: #bebf67;
 }
 
 header .navbar-default .navbar-nav .active a {
 	font-weight: 700;
-	color: #EEC856;
+	color: #bebf67;
 	background: transparent;
-	border-bottom: 4px solid #EEC856;
+	border-bottom: 4px solid #bebf67;
 	text-shadow: none;
 }
 
 header .navbar-default .navbar-nav .active a:hover {
-	color: #E15D5F;
+	color: #3498db;
 	background: transparent;
 	text-shadow: none;
 }
@@ -81,13 +81,13 @@ header .homeText {
 header .homeText p{
 	color: #BEBF67;
 	font-weight: 100;
-	font-size: 60px;
+	font-size: 3.5em;
 }
 
 header #dynamicText, header .typed-cursor {
 	color: #BEBF67;
 	font-weight: 400;
-	font-size: 60px;
+	font-size: 3.5em;
 }
 
 @media only screen
@@ -95,18 +95,18 @@ and (max-width: 768px) {
 	header .homeText p{
 		color: #BEBF67;
 		font-weight: 100;
-		font-size: 30px;
+		font-size: 1.5em;
 	}
 	header .homeText {
 		padding-top: 50%;
 		margin: 0 auto;
 		text-align: center;
-		font-size: 30px;
+		font-size: 1.5em;
 	}
 	header #dynamicText, header .typed-cursor {
 	color: #BEBF67;
 	font-weight: 400;
-	font-size: 20px;
+	font-size: 1.0em;
 }
 	
 }
@@ -138,7 +138,7 @@ and (max-width: 768px) {
 /**  Navbar Brand **/
 
 header .navbar-brand h1 {
-	color: #ecf0f1;
+	color: #3498db;
 	margin: 0;
 	font-size: 1.8em;
 	font-weight: 400;
@@ -150,6 +150,7 @@ header .navbar-brand span.subhead {
 	font-family: "Roboto Slab", serif;
 	font-size: .6em;
 	font-weight: 100;
+	color: #2980b9;
 }
 
 /**  Navbar Toggle **/
