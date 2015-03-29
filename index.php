@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 
 <head>
 	<meta charset="UTF-8">
@@ -11,8 +11,20 @@
 </head>
 
 <body>
+	<header>
+		<!-- navbar goes here -->
 
-	<!-- Content goes here -->
+		<!-- jumbotron goes here -->
+	</header>
+
+	<div class="main">
+		<!-- about section -->
+		<?php include_once 'includes/about.php' ?>
+
+		<!-- skills section -->
+		<?php include_once 'includes/skills.php' ?>
+
+	</div> <!-- .main END -->
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
