@@ -95,7 +95,7 @@ header .navbar-default .navbar-nav .active a:hover {
   text-shadow: none;
 }
 
-header #featured {
+header #home {
   background-image: url("../images/mountain.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -104,12 +104,12 @@ header #featured {
   height: 100px;
 }
 
-header .featuredText {
+header .homeText {
   padding-top: 20%;
   margin: 0 auto;
   text-align: center;
 }
-header .featuredText p{
+header .homeText p{
   color: #BEBF67;
   font-weight: 100;
   font-size: 60px;
@@ -125,19 +125,19 @@ header .navbar-brand h1 {
 
 @media only screen
 and (max-width: 768px) {
-    header .featuredText p{
+    header .homeText p{
     color: #BEBF67;
     font-weight: 100;
     font-size: 30px;
   }
-  header .featuredText {
+  header .homeText {
   padding-top: 50%;
   margin: 0 auto;
   text-align: center;
 }
 }
 
-header .featuredText #dynamicText, .typed-cursor{
+header .homeText #dynamicText, .typed-cursor{
  color: #BEBF67;
     font-weight: 300;
     font-size: 60px;

@@ -25,7 +25,7 @@ $(function() {
 
   // add inbody class
   var hash = $(this).find('li.active a').attr('href');
-  if(hash !== '#featured') {
+  if(hash !== '#home') {
     $('header nav').addClass('inbody');
   } else {
     $('header nav').removeClass('inbody');
@@ -35,7 +35,7 @@ $(function() {
   // Add an inbody class to nav when scrollspy event fires
   $('.navbar-fixed-top').on('activate.bs.scrollspy', function() {
     var hash = $(this).find('li.active a').attr('href');
-    if(hash !== '#featured') {
+    if(hash !== '#home') {
       $('header nav').addClass('inbody');
     } else {
       $('header nav').removeClass('inbody');
