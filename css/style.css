@@ -29,6 +29,12 @@ h1, h2, h3, h4, h5, h6, label, p, a {
 	margin-bottom: 30px;
 }
 
+/**  Page -- About **/
+
+#about {
+	background-color: rgba(189, 195, 199,1.0);
+}
+
 /**  Page -- Contact **/
 
 #contact {
@@ -295,7 +301,7 @@ and (max-width: 768px) {
 /**  nav inbody **/
 
 header .inbody {
-	background: rgba(104,73,49,.9);
+	background: rgba(44, 62, 80, 1);
 }
 
 header .navbar.inbody {

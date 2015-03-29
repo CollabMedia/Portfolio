@@ -19,7 +19,7 @@
 
 	<div class="main">
 		<!-- about section -->
-		<?php /* include_once 'includes/about.php' */ ?>
+		<?php include_once 'includes/about.php' ?>
 
 		<!-- skills section -->
 		<?php /* include_once 'includes/skills.php' */ ?>
