@@ -111,7 +111,7 @@ and (max-width: 768px) {
 	
 }
 
-/*Typed cursor*/
+/* text Typed cursor*/
 .typed-cursor{
 	opacity: 1;
 	-webkit-animation: blink 0.7s infinite;
