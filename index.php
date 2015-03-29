@@ -12,9 +12,8 @@
 
 <body>
 	<header>
-		<!-- navbar goes here -->
-
-		<!-- jumbotron goes here -->
+		<!-- about section -->
+		<?php include_once 'includes/header.php' ?>
 	</header>
 
 	<div class="main">
