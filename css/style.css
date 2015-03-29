@@ -24,7 +24,23 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 30px;
 }
 
+/**  Page -- Contact **/
 
+.contact-info header {
+  padding-bottom: 10px;
+}
+
+.contact-info address p {
+  margin: 0;
+}
+
+.contact-info .social-links {
+  margin-bottom: 10px;
+}
+
+.contact-info .email a {
+  font-size: 1.2em;
+}
 
 
 
@@ -125,22 +141,22 @@ header .navbar-brand h1 {
 
 @media only screen
 and (max-width: 768px) {
-    header .featuredText p{
+  header .featuredText p{
     color: #BEBF67;
     font-weight: 100;
     font-size: 30px;
   }
   header .featuredText {
-  padding-top: 50%;
-  margin: 0 auto;
-  text-align: center;
-}
+    padding-top: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
 
 header .featuredText #dynamicText, .typed-cursor{
  color: #BEBF67;
-    font-weight: 300;
-    font-size: 60px;
+ font-weight: 300;
+ font-size: 60px;
 }
 
 
@@ -155,25 +171,25 @@ header .navbar-brand h1 {
 }
 
 .typed-cursor{
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
 }
 @keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
 }
 @-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
 }
 @-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
 }
 
 
