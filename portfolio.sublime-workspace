@@ -243,7 +243,15 @@
 			"file": "includes/header.php",
 			"settings":
 			{
-				"buffer_size": 1545,
+				"buffer_size": 1399,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "includes/contact.php",
+			"settings":
+			{
+				"buffer_size": 2060,
 				"line_ending": "Windows"
 			}
 		},
@@ -251,7 +259,15 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 933,
+				"buffer_size": 1008,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 4263,
 				"line_ending": "Windows"
 			}
 		}
@@ -390,11 +406,13 @@
 	[
 		"/C/xampp/htdocs/Portfolio",
 		"/C/xampp/htdocs/Portfolio/css",
+		"/C/xampp/htdocs/Portfolio/images",
 		"/C/xampp/htdocs/Portfolio/includes",
 		"/C/xampp/htdocs/Portfolio/js"
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/Portfolio/js/myscript.js",
 		"/C/xampp/htdocs/Portfolio_personal/index.php",
 		"/C/xampp/htdocs/Portfolio_personal/includes/services.php",
 		"/C/xampp/htdocs/Portfolio_personal/includes/head.php",
@@ -458,7 +476,7 @@
 	],
 	"find":
 	{
-		"height": 22.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -474,6 +492,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"px",
+			"header .navbar-brand h1 {",
+			"brand",
+			"featured",
 			"info",
 			"u",
 			"Info",
@@ -519,13 +541,13 @@
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": false,
-		"whole_word": true,
+		"whole_word": false,
 		"wrap": true
 	},
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -534,43 +556,43 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1545,
+						"buffer_size": 1399,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1063,
-								1063
+								1399,
+								1399
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": -0.0,
+						"translation.y": 110.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "index.php",
+					"file": "includes/contact.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 933,
+						"buffer_size": 2060,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								484,
-								484
+								0,
+								0
 							]
 						],
 						"settings":
@@ -582,7 +604,71 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1008,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								370,
+								370
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4263,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1869,
+								1869
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1050.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -605,11 +691,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -681,7 +774,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

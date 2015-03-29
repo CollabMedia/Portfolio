@@ -23,6 +23,9 @@
 		<!-- skills section -->
 		<?php include_once 'includes/skills.php' ?>
 
+		<!-- contact section -->
+		<?php include_once 'includes/contact.php' ?>
+
 	</div> <!-- .main END -->
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
