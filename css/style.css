@@ -8,10 +8,15 @@ body{
 	position: relative;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, label, p, a {
 	font-family: "Open Sans", sans-serif;
 	font-weight: 100;
 	margin: 0;
+	color: rgba(236, 240, 241,0.5);
+}
+
+::selection {
+	background: rgba(230, 126, 34,0.5); 
 }
 
 /**  Page **/
@@ -26,20 +31,83 @@ h1, h2, h3, h4, h5, h6 {
 
 /**  Page -- Contact **/
 
-.contact-info header {
+#contact {
+	padding: 0;
+	background: url(../images/map.jpg) center no-repeat;
+	background-size: contain;
+}
+
+#contact .overlay {
+	padding: 50px 0;
+	background: rgba(44, 62, 80,0.8);
+	overflow: hidden;
+	height: 100%;
+	z-index: 2;
+}
+
+#contact .contact-info header {
 	padding-bottom: 10px;
 }
 
-.contact-info address p {
+#contact .contact-info address p {
 	margin: 0;
 }
 
-.contact-info .social-links {
-	margin-bottom: 10px;
+#contact .contact-info .social-links {
+	padding-bottom: 10px;
 }
 
-.contact-info .email a {
+#contact .contact-info .social-links a {
+	text-decoration: none;
+	transition: 0.2s ease;
+}
+
+#contact .contact-info .social-links a:hover, #contact .contact-info .social-links a:focus {
+	color: rgba(236, 240, 241,1.0);
+	transition: 0.2s ease;
+}
+
+#contact .contact-info .email a {
 	font-size: 1.2em;
+	text-decoration: none;
+	transition: 0.2s ease;
+}
+
+#contact .contact-info .email a:hover, #contact .contact-info .email a:focus {
+	color: rgba(236, 240, 241,1.0);
+	transition: 0.2s ease;
+}
+
+#contact .contact-form .form-control {
+	padding: 12px 6px;
+	border: none;
+	border-radius: 0;
+	border-bottom: 2px solid;
+	box-shadow: none !important;
+	background-color: transparent;
+	color: rgba(236, 240, 241,0.5);
+}
+
+#contact .contact-form .form-group textarea {
+	resize: none;
+}
+
+#contact .btn-default {
+	color: rgba(236, 240, 241,0.5);
+	background-color: transparent;
+	border-width: 3px;
+	border-radius: 0px;
+	border-color: rgba(236, 240, 241,0.5);
+	transition: 0.2s ease;
+}
+
+#contact .btn-default:hover {
+	color: rgba(44, 62, 80,0.8);
+	background-color:  rgba(236, 240, 241,1.0);
+	border-width: 3px;
+	border-radius: 0px;
+	border-color: rgba(236, 240, 241,1.0);
+	transition: 0.2s ease;
 }
 
 /**  Header Navigation **/
