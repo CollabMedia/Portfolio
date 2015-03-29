@@ -89,7 +89,7 @@ header #home {
 
 
 
-/*Text on home page */
+/*Text on header page */
 header .homeText {
 	padding-top: 20%;
 	margin: 0 auto;
@@ -128,7 +128,7 @@ and (max-width: 768px) {
 	
 }
 
-/*Typed cursor*/
+/*Header text Typed cursor*/
 .typed-cursor{
 	opacity: 1;
 	-webkit-animation: blink 0.7s infinite;
