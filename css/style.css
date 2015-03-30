@@ -96,13 +96,12 @@ h1, h2, h3, h4, h5, h6, label, p, a {
 	transition: 0.2s ease;
 }
 
-#contact .contact-info .email a {
-	font-size: 1.2em;
+#contact .contact-info a {
 	text-decoration: none;
 	transition: 0.2s ease;
 }
 
-#contact .contact-info .email a:hover, #contact .contact-info .email a:focus {
+#contact .contact-info a:hover, #contact .contact-info a:focus {
 	color: rgba(236, 240, 241,1.0);
 	transition: 0.2s ease;
 }
@@ -115,6 +114,10 @@ h1, h2, h3, h4, h5, h6, label, p, a {
 	box-shadow: none !important;
 	background-color: transparent;
 	color: rgba(236, 240, 241,0.5);
+}
+
+#contact .contact-form h3 {
+	margin: 24px 0 12px 0;
 }
 
 #contact .contact-form .form-group textarea {

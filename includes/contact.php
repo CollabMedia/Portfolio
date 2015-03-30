@@ -11,6 +11,7 @@
 		    					<address>
 		    						<p>Thomas Bengtsson</p>
 		    						<p>+45 60 71 46 42</p>
+		    						<a href="#">Thomasbengtssons@gmail.com</a>
 		    					</address>
 		    					<div class="social-links">
 		    						<a href="#">
@@ -23,11 +24,9 @@
 		    							<i class="fa fa-twitter-square"></i>
 		    						</a>
 		    					</div> <!-- social-links -->
-		    					<div class="email">
-		    						<a href="#">Thomasbengtssons@gmail.com</a>
-		    					</div>
 		    				</div><!-- contact-info -->
 		    				<div class="col-md-6 contact-form">
+		    					<h3 class="hidden-md hidden-lg">Contact formular</h3>
 		    					<form class="form-horizontal">
 		    						<div class="form-group">
 		    							<div class="col-sm-12">
