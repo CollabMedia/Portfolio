@@ -301,23 +301,25 @@ header .featuredText #dynamicText, .typed-cursor{
 
 /*header scrolldown button*/
 
-.scrolldownContainer {
+a .scrolldownContainer {
 	position: absolute;
 	bottom: 3%;
 	text-align: center;
 	width: 100%;
 	background-color: rgba(46, 44, 44, 0.5);
+transition: 0.5s;
+}
+a .scrolldownContainer .glyphicon {
+	font-size: 1em;
+	
+}
+a .scrolldownContainer:hover {
+	
+	font-size: 150%;
+	
+}
 
-}
-.scrolldownContainer a .glyphicon {
-	font-size: 2em;
-	transition: 0.5s;
-}
-.scrolldownContainer a .glyphicon:hover {
-	font-size: 4em;
-}
-
-.scrolldownContainer p {
+a .scrolldownContainer p {
 	font-size: 0.9em;
 	letter-spacing: 3px;
 	text-transform: uppercase;

@@ -38,12 +38,12 @@
 				
 				
 			</div><!-- row -->
-
-			<div class="scrolldownContainer">
-				<p>Scroll down</p>
-				<a href="#about"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true"> </span></a>
-			</div><!-- scrolldown -->	
-
+			<a href="#about">
+				<div class="scrolldownContainer">
+					<p>Scroll down</p>
+					<span class="glyphicon glyphicon-chevron-down" aria-hidden="true"> </span>
+				</div><!-- scrolldown -->	
+			</a>
 
 		</div><!-- container -->
 		
