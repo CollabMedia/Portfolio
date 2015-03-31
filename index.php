@@ -22,12 +22,18 @@
 		<?php include_once 'includes/about.php' ?>
 
 		<!-- skills section -->
-		<?php /* include_once 'includes/skills.php' */ ?>
+		<?php include_once 'includes/skills.php' ?>
+
+		<!-- projects section -->
+		<?php include_once 'includes/projects.php' ?>
 
 		<!-- contact section -->
 		<?php include_once 'includes/contact.php' ?>
 
+
+
 	</div> <!-- .main END -->
+
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>

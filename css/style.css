@@ -46,7 +46,7 @@ h2 {
 }
 
 #about {
-	padding: 200px 0;
+	padding: 100px 0;
 }
 
 #about i {
@@ -57,10 +57,6 @@ h2 {
 
 #about h1, #about h2, #about h3, #about h4, #about h5, #about h6, #about label, #about p, #about a {
 	color: rgba(52, 73, 94,1.0);
-}
-
-#about h2 {
-	font-weight: 700;
 }
 
 #about h3 {
@@ -79,6 +75,100 @@ h2 {
 #about .education-thumbnails {
 	margin-top: 24px;
 }
+
+
+/**  Page -- Skills **/
+
+#skills {
+	background-color: rgba(189, 195, 199,1.0);
+}
+
+#skills {
+	padding: 100px 0;
+}
+
+#skills .content {
+	text-align: center;
+}
+
+#skills i {
+	padding-bottom: 36px;
+	font-size: 10em;
+	color: rgba(52, 73, 94,1.0);
+}
+
+#skills .intro-text {
+	padding-bottom: 24px;
+}
+
+#skills h1, #skills h2, #skills h3, #skills h4, #skills h5, #skills h6, #skills label, #skills p, #skills a, #skills li {
+	color: rgba(52, 73, 94,1.0);
+}
+
+#skills .list-group-item {
+	padding: 2px 0px;
+	text-align: center;
+	background-color: transparent;
+	border: none;
+}
+
+/** Page -- projects **/
+
+#projects {
+	background-color: rgba(189, 195, 199,1.0);
+}
+
+#projects {
+	padding: 100px 0;
+}
+
+#projects .content {
+	text-align: center;
+}
+
+#projects i {
+	padding-bottom: 36px;
+	font-size: 10em;
+	color: rgba(52, 73, 94,1.0);
+}
+
+#projects .intro-text {
+	padding-bottom: 24px;
+}
+
+#projects .thumbnail-container > p {
+	padding-bottom: 24px;
+}
+
+#projects h1, #projects h2, #projects h3, #projects h4, #projects h5, #projects h6, #projects label, #projects p, #projects a, #projects li {
+	color: rgba(52, 73, 94,1.0);
+}
+
+#projects .thumbnail {
+	display: inline-block;
+	position: relative;
+	border-radius: 0;
+}
+
+#projects .thumbnail:after   {
+	content:'';
+	top: 0;
+	left: 0;
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: absolute;
+	background: rgb(44, 62, 80);
+	opacity: 0.8;
+	transition: 0.5s ease;
+}
+
+#projects .thumbnail:hover:after   {
+	opacity: 0;
+	transition: 0.5s ease;
+}
+
 
 /**  Page -- Contact **/
 
@@ -210,12 +300,12 @@ header #home {
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    background-color: #2C3E50;
-    color: #3498db;
+	background-color: #2C3E50;
+	color: #3498db;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    background-color: #2C3E50;
-    color: #3498db;
+	background-color: #2C3E50;
+	color: #3498db;
 }
 
 /*Text on header page */
@@ -307,16 +397,16 @@ a .scrolldownContainer {
 	text-align: center;
 	width: 100%;
 	background-color: rgba(46, 44, 44, 0.5);
-transition: 0.5s;
+	transition: 0.5s;
 }
 a .scrolldownContainer .glyphicon {
 	font-size: 1em;
-	
+
 }
 a .scrolldownContainer:hover {
-	
+
 	font-size: 150%;
-	
+
 }
 
 a .scrolldownContainer p {
