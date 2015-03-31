@@ -23,6 +23,12 @@ h2 {
 	background: rgba(230, 126, 34,0.5); 
 }
 
+.height100 {
+	height: 100%;
+	position: relative;
+}
+
+
 /**  Page **/
 .page {
 	padding: 50px 0;
@@ -194,16 +200,23 @@ header .navbar-default .navbar-nav .active a:hover {
 }
 
 header #home {
-	background-image: url("../images/mountain.jpg");
+	background-image: url("../images/code_bg.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 	width: 100%;
 	height: 100px;
+
 }
 
-
-
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #2C3E50;
+    color: #3498db;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #2C3E50;
+    color: #3498db;
+}
 
 /*Text on header page */
 header .homeText {
@@ -284,6 +297,30 @@ header .featuredText #dynamicText, .typed-cursor{
 	color: #BEBF67;
 	font-weight: 300;
 	font-size: 60px;
+}
+
+/*header scrolldown button*/
+
+.scrolldownContainer {
+	position: absolute;
+	bottom: 3%;
+	text-align: center;
+	width: 100%;
+	background-color: rgba(46, 44, 44, 0.5);
+
+}
+.scrolldownContainer a .glyphicon {
+	font-size: 2em;
+	transition: 0.5s;
+}
+.scrolldownContainer a .glyphicon:hover {
+	font-size: 4em;
+}
+
+.scrolldownContainer p {
+	font-size: 0.9em;
+	letter-spacing: 3px;
+	text-transform: uppercase;
 }
 
 

@@ -22,20 +22,30 @@
 		</div><!-- container -->
 	</nav>
 
-	<div id="home" class="fullheight">
-		<div class="container">
-			<div class="row">
+	<div id="home" class="fullheight height100">
+		<div class="container height100">
+			<div class="row" >
 				<div class="col-md-12">
 					<div class="homeText">            
 						<p>Hello there</p>
 						<p>I am a</p>
 						
-							<span id="dynamicText"></span><span class="typed-cursor"></span>
+						<span id="dynamicText"></span><span class="typed-cursor"></span>
 						
 						
 					</div><!-- home text -->
 				</div><!-- col-md-12 -->
+				
+				
 			</div><!-- row -->
+
+			<div class="scrolldownContainer">
+				<p>Scroll down</p>
+				<a href="#about"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true"> </span></a>
+			</div><!-- scrolldown -->	
+
+
 		</div><!-- container -->
+		
 	</div><!-- home -->
 </header>
