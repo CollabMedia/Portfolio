@@ -128,11 +128,9 @@ and (max-width: 768px) {
 	
 }
 
-<<<<<<< HEAD
-/* text Typed cursor*/
-=======
+
 /*Header text Typed cursor*/
->>>>>>> origin/master
+
 .typed-cursor{
 	opacity: 1;
 	-webkit-animation: blink 0.7s infinite;
