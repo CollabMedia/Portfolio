@@ -51,7 +51,7 @@
 
 				<div class="col-md-4 col-xs-12">
 					<div class="project_content_left">
-						<h4>Logic Lead System</h4>
+						<h4>Prattle</h4>
 						<h5>A digital handbook system</h5>
 						<img src="images/grey_line.png" class="line" alt="grey_line">
 						<p>This project is an administrator-controlled digital handbook system for guides and plugins that targets employees of a minor web company. I have developed the system from scratch in PHP and MySQL and used the Bootstrap framwork. The system has been securely developed to protected against attacks.</p>
@@ -69,7 +69,7 @@
 				<div class="col-md-8 col-xs-12">
 					<div class="project_content_right">
 						<div class="project-image">
-							<img src="images/logicleadsystem.jpg" class="img-responsive"></img>
+							<img src="images/prattle.jpg" class="img-responsive"></img>
 						</div>
 					</div>
 				</div><!-- col right image end -->
@@ -86,7 +86,7 @@
 
 				<div class="col-md-4 col-xs-12">
 					<div class="project_content_left">
-						<h4>Logic Lead System</h4>
+						<h4>BookIt</h4>
 						<h5>A digital handbook system</h5>
 						<img src="images/grey_line.png" class="line" alt="grey_line">
 						<p>This project is an administrator-controlled digital handbook system for guides and plugins that targets employees of a minor web company. I have developed the system from scratch in PHP and MySQL and used the Bootstrap framwork. The system has been securely developed to protected against attacks.</p>
@@ -104,7 +104,7 @@
 				<div class="col-md-8 col-xs-12">
 					<div class="project_content_right">
 						<div class="project-image">
-							<img src="images/logicleadsystem.jpg" class="img-responsive"></img>
+							<img src="images/bookit.png" class="img-responsive"></img>
 						</div>
 					</div>
 				</div><!-- col right image end -->
