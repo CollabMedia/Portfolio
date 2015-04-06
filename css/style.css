@@ -115,60 +115,21 @@ h2 {
 /** Page -- projects **/
 
 #projects {
-	background-color: rgba(189, 195, 199,1.0);
+	background-color: #16a085;
 }
 
-#projects {
-	padding: 100px 0;
-}
 
 #projects .content {
 	text-align: center;
-}
-
-#projects i {
-	padding-bottom: 36px;
-	font-size: 10em;
-	color: rgba(52, 73, 94,1.0);
 }
 
 #projects .intro-text {
 	padding-bottom: 24px;
 }
 
-#projects .thumbnail-container > p {
-	padding-bottom: 24px;
-}
-
 #projects h1, #projects h2, #projects h3, #projects h4, #projects h5, #projects h6, #projects label, #projects p, #projects a, #projects li {
-	color: rgba(52, 73, 94,1.0);
+	color: #ecf0f1;
 }
-
-#projects .thumbnail {
-	display: inline-block;
-	position: relative;
-	border-radius: 0;
-}
-
-#projects .thumbnail:after   {
-	content:'';
-	top: 0;
-	left: 0;
-	z-index: 10;
-	width: 100%;
-	height: 100%;
-	display: block;
-	position: absolute;
-	background: rgb(44, 62, 80);
-	opacity: 0.8;
-	transition: 0.5s ease;
-}
-
-#projects .thumbnail:hover:after   {
-	opacity: 0;
-	transition: 0.5s ease;
-}
-
 
 /**  Page -- Contact **/
 
