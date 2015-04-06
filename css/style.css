@@ -17,6 +17,10 @@ h1, h2, h3, h4, h5, h6, label, p, a {
 
 h2 {
 	margin-top: 24px;
+	font-size: 2.125em;
+	font-weight: 100;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 ::selection {
@@ -115,22 +119,108 @@ h2 {
 /** Page -- projects **/
 
 #projects {
-	background-color: #16a085;
+	background-color: #F4F6F7;
 }
-
 
 #projects .content {
 	text-align: center;
 }
 
-#projects .intro-text {
-	padding-bottom: 24px;
+#projects header{
+	color: #000;
+	background-color: #F4F6F7;
+	padding-bottom: 1.5em;
 }
 
-#projects h1, #projects h2, #projects h3, #projects h4, #projects h5, #projects h6, #projects label, #projects p, #projects a, #projects li {
-	color: #ecf0f1;
+#projects p {
+	color: #000;
 }
 
+#projects h2 {
+	color: #000;
+	
+}
+
+#projects h3 {
+	color: #B2BDC6;
+}
+
+#projects h4 {
+	color: #000;
+}
+
+#projects h5 {
+	color: #000;
+}
+#projects .line {
+	width: 40px;
+}
+
+#projects article .project-image {
+	background-image: url("../images/laptop.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 500px;
+	padding: 45px;
+	
+}
+
+@media only screen
+and (max-width: 480px) {
+	#projects article .project-image {
+		background-image: url("../images/laptop.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 260px;
+		margin:0 auto;
+		height: auto;
+		padding: 15px;
+	}
+	
+
+}
+
+@media only screen
+and (min-width: 480px) and (max-width: 768px) {
+	#projects article .project-image {
+		background-image: url("../images/laptop.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+		height: 400px;
+		padding: 30px;
+	}
+	
+
+}
+
+#projects article {
+	text-align: left;
+	padding: 50px 0;
+}
+
+#projects article:nth-child(even) {
+	background-color: #34495e;
+}
+#projects article:nth-child(even) h4{
+	color: #F4F6F7;
+}
+#projects article:nth-child(even) p{
+	color: #F4F6F7;
+}
+
+#projects article h4{
+	color: #34495e;
+	font-size: 1.6em;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+#projects article h5 {
+	color: #95a5a6;
+	font-size: 1em;
+	font-weight: 200;
+	margin: 10px 0 15px;
+}
 /**  Page -- Contact **/
 
 #contact {
