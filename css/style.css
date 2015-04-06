@@ -618,3 +618,20 @@ header .inbody .navbar-brand h1 {
 header .inbody .navbar-brand span.subhead {
 	display: none;
 }
+
+
+
+/*License page */
+
+#footer {
+	font-size: 0.7em;
+	color: #fff;
+	background-color: #141414;
+	padding: 10px 0;
+	margin: 0;
+	text-align: left;
+}
+
+#footer h2 {
+	text-align: left;
+}

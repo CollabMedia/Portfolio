@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="da">
 
@@ -9,6 +12,12 @@
 	<link rel="stylesheet" href="css/animate.css" type="text/css">
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 	<script src="js/prefixfree.min.js"></script>
+
+	<meta name="description" content="Portfolio website for Bjarne Gerhardt-Pedersen">
+	<meta name="keywords" content="Portfolio Bjarne Gerhardt-Pedersen Web Developer">
+	<link rel="icon" type="image/ico" href="favicon.ico">
+
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -31,8 +40,9 @@
 		<!-- contact section -->
 		<?php include_once 'includes/contact.php' ?>
 
-
-
+		<!-- footer -->
+		<?php include_once 'includes/footer.php' ?>
+		
 	</div> <!-- .main END -->
 
 
@@ -43,3 +53,4 @@
 	<script src="js/myscript.js"></script>
 </body>
 </html>
+
