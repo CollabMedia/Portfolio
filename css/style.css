@@ -31,15 +31,16 @@ h2 {
 	height: 100%;
 	position: relative;
 }
-a {
-	color: #BEBF67;
+
+
+
+.hiddenClass{
+     opacity:0;
+}
+.visibleClass{
+     opacity:1;
 }
 
-a:hover {
-	color: #BEBF67;
-	text-decoration: none;
-	font-weight: 600;
-}
 
 
 /**  Page **/
@@ -142,6 +143,17 @@ a:hover {
 	padding-bottom: 1.5em;
 }
 
+#projects a {
+	color: #BEBF67;
+}
+
+#projects a:hover {
+	color: #BEBF67;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+
 #projects p {
 	color: #000;
 }
@@ -193,7 +205,7 @@ a:hover {
 	border-bottom: 20px solid #383838;
 	border-radius: 10px;
 	box-shadow: 5px 5px 10px black;
-	margin-top: 10px;
+	transition: 0.5s;
 }
 
 @media only screen
@@ -229,6 +241,11 @@ and (max-width: 480px) {
 	color: #F4F6F7;
 }
 
+#projects article:nth-child(odd) li{
+	color: #34495E;
+}
+
+
 #projects article h4{
 	color: #34495e;
 	font-size: 1.6em;
@@ -242,6 +259,33 @@ and (max-width: 480px) {
 	font-weight: 200;
 	margin: 10px 0 15px;
 }
+
+#projects .btn-info {
+    background-color: #34495e;
+    border-color: #f4f6f7;
+    border-radius: 0;
+    color: #fff;
+    padding: 2% 10%;
+    transition: 0.5s;
+}
+#projects .btn-info:hover {
+    background-color: #445A70;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**  Page -- Contact **/
 
 #contact {
@@ -491,7 +535,7 @@ a .scrolldownContainer p {
 /**  Navbar Brand **/
 
 header .navbar-brand h1 {
-	color: #3498db;
+	color: #f4f6f7;
 	margin: 0;
 	font-size: 1.8em;
 	font-weight: 400;
@@ -524,7 +568,7 @@ header .navbar-brand span.subhead {
 	font-family: "Roboto Slab", serif;
 	font-size: .6em;
 	font-weight: 100;
-	color: #2980b9;
+	color: #f4f6f7;
 }
 
 /**  Navbar Toggle **/

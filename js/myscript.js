@@ -49,26 +49,31 @@ $(function() {
       this.pathname.replace(/^\//,'') && 
       location.hostname === this.hostname) {
       var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top-topoffset+2
-        }, 500);
-        return false;
+    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+    if (target.length) {
+      $('html,body').animate({
+        scrollTop: target.offset().top-topoffset+2
+      }, 500);
+      return false;
       } //target.length
     } //click function
   }); //smooth scrolling
 
 
-$("#dynamicText").typed({
-        strings: ["Web Developer...", "Teamplayer...", "Coder {}...", "Friend..", "Frontend explorer..."],
-        typeSpeed: 70,
-        loop: true,
-        showCursor: true
-      });
+  $("#dynamicText").typed({
+    strings: ["Web Developer...", "Teamplayer...", "Coder {}...", "Friend..", "Frontend explorer..."],
+    typeSpeed: 70,
+    loop: true,
+    showCursor: true
+  });
 
+  $('.project_content_left').addClass("hiddenClass").viewportChecker({
+    classToAdd: 'visibleClass animated fadeInLeft',
+    offset: 100
+  });
+$('.project_content_right').addClass("hiddenClass").viewportChecker({
+    classToAdd: 'visibleClass animated fadeInRight',
+    offset: 100
+  });
 
-
-
-
-});
+});/*ready*/
