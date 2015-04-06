@@ -31,6 +31,15 @@ h2 {
 	height: 100%;
 	position: relative;
 }
+a {
+	color: #BEBF67;
+}
+
+a:hover {
+	color: #BEBF67;
+	text-decoration: none;
+	font-weight: 600;
+}
 
 
 /**  Page **/
@@ -120,6 +129,7 @@ h2 {
 
 #projects {
 	background-color: #F4F6F7;
+	padding-bottom: 0;
 }
 
 #projects .content {
@@ -152,45 +162,56 @@ h2 {
 #projects h5 {
 	color: #000;
 }
+
+#projects ul {
+	padding: 5px 0;
+}
+
+#projects li {
+	font-size: 0.8em;
+	font-weight: 200;
+	color: #F4F6F7;
+	
+	list-style: none;
+}
+
 #projects .line {
 	width: 40px;
 }
 
-#projects article .project-image {
-	background-image: url("../images/laptop.png");
-	background-repeat: no-repeat;
-	background-size: contain;
-	height: 500px;
-	padding: 45px;
-	
+#projects button {
+	margin: 10px 0;
 }
 
-@media only screen
-and (max-width: 480px) {
-	#projects article .project-image {
-		background-image: url("../images/laptop.png");
-		background-repeat: no-repeat;
-		background-size: contain;
-		width: 260px;
-		margin:0 auto;
-		height: auto;
-		padding: 15px;
-	}
-	
-
+#projects article .project-image {
+	/*background-image: url("../images/laptop.png");*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	background-color: #292929;
+	padding: 33px 29px 1px;
+	border-bottom: 20px solid #383838;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px black;
+	margin-top: 10px;
 }
 
 @media only screen
 and (min-width: 480px) and (max-width: 768px) {
 	#projects article .project-image {
-		background-image: url("../images/laptop.png");
-		background-repeat: no-repeat;
-		background-size: contain;
-		height: 400px;
-		padding: 30px;
-	}
-	
+		padding: 24px 20px 1px;
+		border-bottom: 15px solid #383838;
+		margin-top: 20px;
+	}	
+}
 
+@media only screen
+and (max-width: 480px) {
+	#projects article .project-image {
+		padding: 12px 10px 1px;
+		border-bottom: 10px solid #383838;
+		margin-top: 20px;
+	}
 }
 
 #projects article {
