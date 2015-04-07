@@ -1,7 +1,7 @@
 <div class="page" id="projects">
 	<div class="content container">
 		<header>
-			<h2>Projects</h2>
+			<h2><span class="fa fa-file-code-o"></span> Projects</h2>
 			<img src="images/grey_line.png" class="line" alt="grey_line">
 			<h3>A collection of my developed projects</h3>
 
@@ -26,9 +26,9 @@
 							<li>Employee: testuser@hotmail.com // Password: Testuser1</li>
 							<li>Admin: testadmin@hotmail.com // Password: Testadmin1</li>
 						</ul>
-						<p>Code can be found on <a href="https://github.com/Moelgaard85/LogicLeadSystem/">Github</a>
+						<p>Code can be found on <a href="https://github.com/Moelgaard85/LogicLeadSystem/" target="_blank">Github</a>
 						</p>
-						<a href="#"><button type="button" class="btn btn-large btn-info">See the work</button></a>
+						<a href="#" target="_blank"><button type="button" class="btn btn-large btn-info">See the work</button></a>
 					</div>
 				</div><!-- col left description end -->
 				<div class="col-md-8 col-xs-12">
@@ -101,9 +101,9 @@
 							<li>Employee: testuser@hotmail.com // Password: Testuser1</li>
 							<li>Admin: testadmin@hotmail.com // Password: Testadmin1</li>
 						</ul>
-						<p>Code can be found on <a href="https://github.com/Moelgaard85/LogicLeadSystem/">Github</a>
+						<p>Code can be found on <a href="https://github.com/Moelgaard85/LogicLeadSystem/" target="_blank">Github</a>
 						</p>
-						<a href="#"><button type="button" class="btn btn-large btn-info">See the work</button></a>
+						<a href="#" target="_blank"><button type="button" class="btn btn-large btn-info">See the work</button></a>
 					</div>
 				</div><!-- col left description end -->
 				<div class="col-md-8 col-xs-12">
@@ -178,9 +178,9 @@
 							<li>Employee: testuser@hotmail.com // Password: Testuser1</li>
 							<li>Admin: testadmin@hotmail.com // Password: Testadmin1</li>
 						</ul>
-						<p>Code can be found on <a href="https://github.com/Moelgaard85/LogicLeadSystem/">Github</a>
+						<p>Code can be found on <a href="https://github.com/Moelgaard85/LogicLeadSystem/" target="_blank">Github</a>
 						</p>
-						<a href="#"><button type="button" class="btn btn-large btn-info">See the work</button></a>
+						<a href="#" target="_blank"><button type="button" class="btn btn-large btn-info">See the work</button></a>
 					</div>
 				</div><!-- col left description end -->
 				<div class="col-md-8 col-xs-12">

@@ -70,23 +70,23 @@ $(function() {
   /*Animate projects*/
   $('.project_content_left').addClass("hiddenClass").viewportChecker({
     classToAdd: 'visibleClass animated fadeInLeft',
-    offset: 100
+    offset: 50
   });
   $('.project_content_right').addClass("hiddenClass").viewportChecker({
       classToAdd: 'visibleClass animated fadeInRight',
-      offset: 100
+      offset: 50
     });
 
 /*Animate Skills*/
 $('.progress-bar').addClass("hiddenClass").viewportChecker({
       classToAdd: 'visibleClass animated fadeInLeft',
-      offset: 100,
+      offset: 50,
       repeat: true
     });
 
 $('.karokee p').addClass("hiddenClass").viewportChecker({
       classToAdd: 'visibleClass animated rubberBand',
-      offset: 100,
+      offset: 50,
       repeat: true
     });
 
