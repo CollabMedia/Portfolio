@@ -1,6 +1,7 @@
 		<div class="page" id="skills">
 			<div class="content container">
 				<header>
+					<h2><span class="fa fa-code"></span> Skills</h2>
 					<img src="images/grey_line.png" class="line" alt="grey_line">
 					<h3>A presentation of my skills and experience</h3>
 
