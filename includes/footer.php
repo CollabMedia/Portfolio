@@ -12,4 +12,4 @@
 				</div><!-- col end -->
 			</div><!-- row END -->			
 		</div> <!-- content END -->
-	</div> <!-- #page1 END --> 
+	</div> <!-- #footer END --> 
