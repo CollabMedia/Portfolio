@@ -273,6 +273,10 @@ and (max-width: 480px) {
     
 }
 
+#projects .carousel-indicators {
+    bottom: 0;
+}
+
 #projects .carousel-indicators li {
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #445A70;
@@ -588,7 +592,18 @@ header .navbar-brand span.subhead {
 
 /**  Navbar Toggle **/
 header .navbar-toggle {
-	background-color: #279182;
+	background-color: #2e2e30;
+	border-radius: 0;
+}
+
+header .navbar-default .navbar-toggle:focus {
+	background-color: #47474A;
+	border-radius: 0;
+}
+
+header .navbar-default .navbar-toggle:hover {
+	background-color: #47474A;
+	border-radius: 0;
 }
 
 header .navbar-default .navbar-toggle .icon-bar {
