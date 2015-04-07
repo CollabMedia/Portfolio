@@ -77,7 +77,18 @@ $(function() {
       offset: 100
     });
 
+/*Animate Skills*/
+$('.progress-bar').addClass("hiddenClass").viewportChecker({
+      classToAdd: 'visibleClass animated fadeInLeft',
+      offset: 100,
+      repeat: true
+    });
 
+$('.karokee p').addClass("hiddenClass").viewportChecker({
+      classToAdd: 'visibleClass animated rubberBand',
+      offset: 100,
+      repeat: true
+    });
 
 
 
