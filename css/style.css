@@ -179,7 +179,7 @@ h2 {
 	padding: 5px 0;
 }
 
-#projects li {
+#projects .project_content_left li {
 	font-size: 0.8em;
 	font-weight: 200;
 	color: #F4F6F7;
@@ -273,10 +273,25 @@ and (max-width: 480px) {
     
 }
 
+#projects .carousel-indicators li {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #445A70;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    width: 10px;
+}
 
 
-
-
+#projects .carousel-indicators .active {
+    background-color: #445A70;
+    height: 12px;
+    margin: 0;
+    width: 12px;
+}
 
 
 
