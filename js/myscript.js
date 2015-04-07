@@ -67,13 +67,20 @@ $(function() {
     showCursor: true
   });
 
+  /*Animate projects*/
   $('.project_content_left').addClass("hiddenClass").viewportChecker({
     classToAdd: 'visibleClass animated fadeInLeft',
     offset: 100
   });
-$('.project_content_right').addClass("hiddenClass").viewportChecker({
-    classToAdd: 'visibleClass animated fadeInRight',
-    offset: 100
-  });
+  $('.project_content_right').addClass("hiddenClass").viewportChecker({
+      classToAdd: 'visibleClass animated fadeInRight',
+      offset: 100
+    });
+
+
+
+
+
+
 
 });/*ready*/
