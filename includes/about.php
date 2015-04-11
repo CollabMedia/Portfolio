@@ -1,9 +1,10 @@
 		<div class="page" id="about">
 			<div class="content container">
 				<div class="row">
-					<div class="col-md-8 col-md-push-3 about-text">
+					<div class="col-md-8 about-text">
 						<h2>Thomas Bengtsson</h2>
 						<h3>Web developement with an eye for the detail</h3>
+						<img src="images/grey_line.png" class="line" alt="grey_line">
 
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur eveniet aliquid provident alias a placeat voluptate, doloremque cupiditate ipsam! Saepe doloribus perspiciatis voluptatibus mollitia doloremque voluptates repudiandae eligendi dignissimos? Nihil!

@@ -59,16 +59,29 @@ h2 {
 /**  Page -- About **/
 
 #about {
-	background-image: url(../images/about-image.png);
-	background-color: rgba(189, 195, 199,1.0);
-	background-repeat: no-repeat;
-	background-position: left center;
-	background-size: contain;
+	padding: 100px 0;
+}
+
+@media screen 
+and (min-width: 996px) 
+{ 
+	#about {
+		background-image: url(../images/about-image.jpg);
+		background-color: rgba(189, 195, 199,1.0);
+		background-repeat: no-repeat;
+		background-position: right center;
+		background-size: cover;
+	}
+	#about .about-text {
+		background-color: rgba(236, 240, 241,0.2);
+	}
 }
 
 #about {
-	padding: 100px 0;
+	background-color: rgba(189, 195, 199,1.0);
 }
+
+
 
 #about i {
 	padding-bottom: 36px;
